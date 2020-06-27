@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: gray;
+  color: whitesmoke;
+  font-size: large;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 4fr));
+}
+
+.services-item {
+  background-color: whitesmoke;
+  color: black;
+  margin: 10px;
+  border-radius: 20px;
+  opacity: 0;
+}
+
+.card__title-img {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.card__body p,
+.card__footer {
+  padding-left: 10px;
+  padding-right: 10px;
+}
