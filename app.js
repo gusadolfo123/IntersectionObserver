@@ -73,7 +73,7 @@ window.addEventListener("load", function (event) {
 
   async function callMovies(page) {
     const movies = await fetch(
-      `https://api.themoviedb.org/3/movie/popular?api_key=4a99f059286e8f1fda13d537d9ae444b&language=es-ES&page=${page}`
+      `https://api.themoviedb.org/3/movie/popular?api_key=&language=es-ES&page=${page}`
     )
       .then((response) => {
         return response.json();
